@@ -20,7 +20,7 @@ class Tracks extends Component {
 									<div className="row">
 										{
 											track_list.map(item => (
-												<Track key={item.track_id} track={item.track} />
+												<Track key={item.track.track_id} track={item.track} />
 											))
 										}
 									</div>
